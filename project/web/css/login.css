@@ -1,0 +1,114 @@
+/* 1. Cấu hình nền và căn giữa form */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    /* Bạn có thể thay link ảnh nền bên dưới */
+    background: url('https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1350&q=80');
+    background-size: cover;
+    background-position: center;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* 2. Hiệu ứng kính mờ (Glassmorphism) */
+.glass-container {
+    position: relative;
+    width: 380px;
+    padding: 40px;
+    border-radius: 20px;
+    backdrop-filter: blur(15px); /* Làm mờ hậu cảnh */
+    -webkit-backdrop-filter: blur(15px);
+    background: rgba(255, 255, 255, 0.1); /* Nền trắng trong suốt */
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.4); /* Đổ bóng tạo chiều sâu */
+    color: white;
+    text-align: center;
+}
+
+.glass-container h3 {
+    margin-bottom: 30px;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+/* 3. Style cho các ô nhập liệu */
+.input-group {
+    position: relative;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #fff;
+}
+
+.input-group input {
+    width: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    padding: 10px 5px;
+    color: white;
+    font-size: 16px;
+}
+
+/* Hiệu ứng Label bay lên khi click */
+.input-group label {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    pointer-events: none;
+    transition: 0.5s;
+    color: #fff;
+}
+
+.input-group input:focus ~ label,
+.input-group input:valid ~ label {
+    top: -5px;
+    font-size: 12px;
+}
+
+/* 4. Thông báo lỗi */
+.text-danger {
+    color: #ff4d4d;
+    font-weight: bold;
+    margin-bottom: 15px;
+    display: block;
+}
+
+/* 5. Nút đăng nhập */
+button {
+    width: 100%;
+    height: 45px;
+    background: #fff;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+    transition: 0.3s;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: rgba(255, 255, 255, 0.8);
+}
+
+.remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    margin: -15px 0 20px;
+}
+/* 6. Link đăng ký */
+.register-link {
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.register-link a {
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+}

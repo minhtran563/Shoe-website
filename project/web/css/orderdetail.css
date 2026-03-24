@@ -1,0 +1,41 @@
+body {
+    background: #f4f7f6;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.box {
+    background: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    border: none;
+    margin-top: 20px;
+}
+
+.table thead th {
+    border-top: none;
+    background-color: #f8f9fa;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    letter-spacing: 1px;
+    color: #495057;
+    vertical-align: middle;
+}
+
+.table td {
+    vertical-align: middle;
+}
+
+.badge {
+    padding: 6px 10px;
+    font-weight: 500;
+}
+
+.text-primary {
+    color: #007bff !important;
+}
+
+/* Hi ứng hover cho dòng trong bảng */
+.table-hover tbody tr:hover {
+    background-color: rgba(0, 123, 255, 0.02);
+}

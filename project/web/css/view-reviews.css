@@ -1,0 +1,81 @@
+body {
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Navbar Custom (Tông tối như ảnh bạn gửi) */
+.navbar-custom {
+    background-color: #1a1d21;
+    padding: 10px 0;
+}
+.navbar-brand {
+    font-size: 1.25rem;
+    letter-spacing: 0.5px;
+}
+
+/* Content Styling */
+.main-container {
+    padding: 30px 40px;
+}
+.back-link {
+    color: #6c757d;
+    text-decoration: none;
+    font-size: 14px;
+    transition: 0.2s;
+}
+.back-link:hover {
+    color: #212529;
+}
+
+.page-title {
+    font-weight: 700;
+    color: #1a1d21;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+/* Table Styling */
+.table-card {
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    background: white;
+}
+.table thead th {
+    background-color: #fcfcfc;
+    color: #6c757d;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-top: none;
+    padding: 15px 20px;
+}
+.table tbody td {
+    padding: 18px 20px;
+    vertical-align: middle;
+    border-color: #f1f1f1;
+    font-size: 14.5px;
+}
+
+/* Rating Badge */
+.rating-badge {
+    background-color: #fff9e6;
+    color: #f39c12;
+    padding: 5px 12px;
+    border-radius: 50px;
+    font-weight: 700;
+    display: inline-block;
+}
+
+.review-id {
+    color: #adb5bd;
+    font-family: monospace;
+}
+.user-name {
+    font-weight: 600;
+    color: #333;
+}
+.comment-text {
+    color: #444;
+    max-width: 400px;
+}
