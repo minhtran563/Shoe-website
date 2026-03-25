@@ -63,11 +63,11 @@ GO
 
 INSERT INTO Products (ProductName, CategoryID, Description, Price, Image) VALUES
 -- GIÀY (CategoryID = 1)
-(N'Nike Pegasus', 1, N'Giày chạy bộ Nike', 120.00, 'shoe1.jpg'),
-(N'Adidas Ultraboost', 1, N'Giày chạy bộ Adidas', 150.00, 'shoe2.jpg'),
-(N'Nike Air Force 1', 1, N'Giày sneaker Nike', 130.00, 'shoe3.jpg'),
-(N'Adidas Stan Smith', 1, N'Giày sneaker Adidas', 120.00, 'shoe4.jpg'),
-(N'Puma Velocity Nitro', 1, N'Giày chạy bộ Puma', 110.00, 'shoe5.jpg'),
+(N'Giày Nike Pegasus', 1, N'Giày chạy bộ Nike', 120.00, 'shoe1.jpg'),
+(N'Giày Adidas Ultraboost', 1, N'Giày chạy bộ Adidas', 150.00, 'shoe2.jpg'),
+(N'Giày Nike Air Force 1', 1, N'Giày sneaker Nike', 130.00, 'shoe3.jpg'),
+(N'Giày Adidas Stan Smith', 1, N'Giày sneaker Adidas', 120.00, 'shoe4.jpg'),
+(N'Giày Puma Velocity Nitro', 1, N'Giày chạy bộ Puma', 110.00, 'shoe5.jpg'),
 
 -- ÁO (CategoryID = 2)
 (N'Áo thun Nike Dri-FIT', 2, N'Áo thun thể thao Nike', 35.00, 'shirt1.jpg'),
